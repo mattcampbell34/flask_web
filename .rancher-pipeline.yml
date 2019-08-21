@@ -6,6 +6,6 @@ stages:
       buildContext: .
       tag: flask_hello:v1
       pushRemote: true
-      registry: 127.0.0.1:34383
+      registry: index.docker.io
 timeout: 60
 notification: {}
