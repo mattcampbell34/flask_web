@@ -5,7 +5,8 @@ stages:
       dockerfilePath: ./Dockerfile
       buildContext: .
       tag: flask_hello:v1
-      pushRemote: true
       registry: index.docker.io
+    when:
+      branch: {}
 timeout: 60
 notification: {}
